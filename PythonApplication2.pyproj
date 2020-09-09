@@ -27,6 +27,9 @@
     <Compile Include="Packages\Bissextile.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Packages\TestDictionnaire.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Packages\TableMultiplication.py">
       <SubType>Code</SubType>
     </Compile>
