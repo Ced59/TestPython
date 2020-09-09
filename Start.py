@@ -3,6 +3,7 @@
 import os
 import Packages.Bissextile as Bissextile
 import Packages.TableMultiplication as Mult
+import Packages.Casino as Casino
 
 stop = False
 
@@ -22,5 +23,9 @@ while stop == False :
     if choice == 2:
         Mult.mult()
 
+    if choice == 3:
+        Casino.Roulette()
+
     if choice == 4:
         stop = True
+
